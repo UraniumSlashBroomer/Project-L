@@ -54,10 +54,10 @@ class STGCNBlock(nn.Module):
         return x
 
 class SpatialTemporalGraphConvNetwork(nn.Module):
-    def __init__(self, num_classes, num_channels, num_nodes=21, device='cpu'):
+    def __init__(self, num_classes, num_channels, num_nodes=21, threshold=0.5, device='cpu'):
         super().__init__()
         self.A = torch.eye(num_nodes, device=device)
-
+        self.threshold = threshold # threshold for inference
         for i, j in mp_hands.HAND_CONNECTIONS:
             self.A[i, j] = 1
             self.A[j, i] = 1
