@@ -26,7 +26,7 @@
 1. Клонируем репозиторий и переходим в папку с проектом:
 
 ```
-https://github.com/UraniumSlashBroomer/Project-L.git
+git clone https://github.com/UraniumSlashBroomer/Project-L.git
 cd Project-L
 ```
 
