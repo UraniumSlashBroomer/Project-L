@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ```
 
 **ВАЖНО!**
-В requirements находится torch без поддержки GPU. Это связано с тем, что torch с поддержкой GPU занимает 7 ГБ места, а без всего 1 ГБ. **Если нужно обучить модель - установите torch с поддержкой GPU (CUDA 12.6)** вручную следующей командой:
+В requirements находится torch без поддержки GPU. **Если нужно обучить модель - установите torch с поддержкой GPU (CUDA 12.6)** вручную следующей командой:
 ```
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
 ```
