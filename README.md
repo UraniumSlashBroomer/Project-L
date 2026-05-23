@@ -1,3 +1,15 @@
+## Extended abstract of this project / короткая статья об этом проекте
+
+Ru: Задача, архитектура модели и ключевые метрики этого проекта описаны в краткой статье на 2 страницы. Статья на английском языке, так как я её делал для летней школы EEML. Полный документ загружен в репозиторий: **[Прочитать полностью (2 страницы, PDF)](extended_abstract.pdf)**
+
+---
+
+Eng: The core methodology, framework, and key metrics of this project are documented in a short 2-page extended abstract. Full document uploaded to this repository: **[Read Extended Abstract (2 Pages, PDF)](extended_abstract.pdf)**
+
+---
+
+<img width="799" height="829" alt="image" src="https://github.com/user-attachments/assets/e3b671a2-ad15-404c-9812-2de45286dc8e" />
+
 # Project-L
 
 ## Language
